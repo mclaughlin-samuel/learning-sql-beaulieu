@@ -14,6 +14,7 @@ SQL fundamentals study repo. Covers the language systematically — set theory, 
 | 1 | A Little Background | Complete (read only) |
 | 2 | Creating and Populating a Database | Complete |
 | 3 | Query Primer | Complete |
+| 4 | Filtering | Complete |
 
 ## Chapter 2 — Creating and Populating a Database
 
@@ -46,6 +47,16 @@ Concepts covered:
 - `date()` and `time()` functions for extracting date/time components
 - `concat()` for string concatenation
 - Subqueries in the SELECT and FROM clauses
+
+## Chapter 4 — Filtering
+
+Concepts covered:
+
+- Condition types: equality, inequality, range (`BETWEEN`), membership (`IN`), pattern matching (`LIKE`)
+- `NULL` conditions — `IS NULL`, `IS NOT NULL`
+- `AND` / `OR` / `NOT` logic and operator precedence
+- Subqueries in `WHERE` — using a SELECT result as a dynamic filter list
+- `DELETE` with `WHERE` — row-level deletion and the importance of the WHERE clause
 
 ## Project
 
