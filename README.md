@@ -13,7 +13,7 @@ SQL fundamentals study repo. Covers the language systematically — set theory, 
 |---|---|---|
 | 1 | A Little Background | Complete (read only) |
 | 2 | Creating and Populating a Database | Complete |
-| 3 | Query Primer | Not started |
+| 3 | Query Primer | Complete |
 
 ## Chapter 2 — Creating and Populating a Database
 
@@ -32,6 +32,20 @@ Concepts covered:
 - `str_to_date` — parsing non-standard date formats
 - Foreign key constraint enforcement
 - ENUM constraint enforcement
+
+## Chapter 3 — Query Primer
+
+Concepts covered:
+
+- `SELECT` clause — column selection, column aliases, expressions, `DISTINCT`
+- `FROM` clause — table aliases, subqueries in FROM
+- `WHERE` clause — comparison operators, `AND`/`OR`/`NOT`, `IN`, `BETWEEN`, `LIKE`, `IS NULL`
+- `GROUP BY` and `HAVING`
+- `ORDER BY` — ascending/descending, sorting by expressions
+- How queries are executed by the MySQL server — connections, query parsing, optimisation, result sets
+- `date()` and `time()` functions for extracting date/time components
+- `concat()` for string concatenation
+- Subqueries in the SELECT and FROM clauses
 
 ## Project
 
