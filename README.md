@@ -15,6 +15,7 @@ SQL fundamentals study repo. Covers the language systematically — set theory, 
 | 2 | Creating and Populating a Database | Complete |
 | 3 | Query Primer | Complete |
 | 4 | Filtering | Complete |
+| 5 | Querying Multiple Tables | Complete |
 
 ## Chapter 2 — Creating and Populating a Database
 
@@ -57,6 +58,16 @@ Concepts covered:
 - `AND` / `OR` / `NOT` logic and operator precedence
 - Subqueries in `WHERE` — using a SELECT result as a dynamic filter list
 - `DELETE` with `WHERE` — row-level deletion and the importance of the WHERE clause
+
+## Chapter 5 — Querying Multiple Tables
+
+Concepts covered:
+
+- `INNER JOIN` — joining two tables on a shared key
+- Table aliases in multi-table queries
+- Joining three or more tables
+- Subqueries as a table source in `FROM`
+- Cartesian product and why join conditions matter
 
 ## Project
 
