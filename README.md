@@ -16,6 +16,7 @@ SQL fundamentals study repo. Covers the language systematically — set theory, 
 | 3 | Query Primer | Complete |
 | 4 | Filtering | Complete |
 | 5 | Querying Multiple Tables | Complete |
+| 6 | Working with Sets | Complete |
 
 ## Chapter 2 — Creating and Populating a Database
 
@@ -68,6 +69,17 @@ Concepts covered:
 - Joining three or more tables
 - Subqueries as a table source in `FROM`
 - Cartesian product and why join conditions matter
+
+## Chapter 6 — Working with Sets
+
+Concepts covered:
+
+- `UNION` — combining result sets, removing duplicates
+- `UNION ALL` — combining result sets, keeping duplicates
+- `INTERSECT` — rows common to both result sets
+- `EXCEPT` — rows in the first result set not in the second
+- Set operation rules — column count and data type compatibility
+- Sorting combined result sets with `ORDER BY`
 
 ## Project
 
