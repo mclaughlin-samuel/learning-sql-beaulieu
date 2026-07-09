@@ -18,7 +18,8 @@ SQL fundamentals study repo. Covers the language systematically — set theory, 
 | 5 | Querying Multiple Tables | Complete |
 | 6 | Working with Sets | Complete |
 | 7 | Data Generation, Manipulation, and Conversion | Complete |
-| 8 | Grouping and Aggregates | In progress |
+| 8 | Grouping and Aggregates | Complete |
+| 9 | Subqueries | In progress |
 
 ## Chapter 2 — Creating and Populating a Database
 
@@ -96,7 +97,13 @@ Concepts covered:
 
 ## Chapter 8 — Grouping and Aggregates
 
-In progress.
+Concepts covered:
+
+- `GROUP BY` — grouping rows by one or more columns
+- Aggregate functions — `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`
+- `HAVING` — filtering aggregated results
+- Grouping by expressions
+- `COUNT(*)` vs `COUNT(column)` and NULL behaviour
 
 ## Project
 
