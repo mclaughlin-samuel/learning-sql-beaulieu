@@ -17,6 +17,8 @@ SQL fundamentals study repo. Covers the language systematically — set theory, 
 | 4 | Filtering | Complete |
 | 5 | Querying Multiple Tables | Complete |
 | 6 | Working with Sets | Complete |
+| 7 | Data Generation, Manipulation, and Conversion | Complete |
+| 8 | Grouping and Aggregates | In progress |
 
 ## Chapter 2 — Creating and Populating a Database
 
@@ -80,6 +82,21 @@ Concepts covered:
 - `EXCEPT` — rows in the first result set not in the second
 - Set operation rules — column count and data type compatibility
 - Sorting combined result sets with `ORDER BY`
+
+## Chapter 7 — Data Generation, Manipulation, and Conversion
+
+Concepts covered:
+
+- Working with temporal data — DATE, DATETIME, TIMESTAMP, YEAR
+- Date formatting and parsing — `date()`, `time()`, `str_to_date()`, `date_format()`
+- Date arithmetic — adding/subtracting intervals
+- String functions — `concat()`, `length()`, `upper()`, `lower()`, `trim()`
+- Numeric functions
+- Type conversion
+
+## Chapter 8 — Grouping and Aggregates
+
+In progress.
 
 ## Project
 
