@@ -19,7 +19,9 @@ SQL fundamentals study repo. Covers the language systematically — set theory, 
 | 6 | Working with Sets | Complete |
 | 7 | Data Generation, Manipulation, and Conversion | Complete |
 | 8 | Grouping and Aggregates | Complete |
-| 9 | Subqueries | In progress |
+| 9 | Subqueries | Complete |
+| 10 | Joins Revisited | Complete |
+| 11 | Conditional Logic | In progress |
 
 ## Chapter 2 — Creating and Populating a Database
 
@@ -104,6 +106,26 @@ Concepts covered:
 - `HAVING` — filtering aggregated results
 - Grouping by expressions
 - `COUNT(*)` vs `COUNT(column)` and NULL behaviour
+
+## Chapter 9 — Subqueries
+
+Concepts covered:
+
+- Subqueries in `WHERE`, `FROM`, and `SELECT` clauses
+- Correlated vs non-correlated subqueries
+- `EXISTS` / `NOT EXISTS`
+- CTEs (`WITH` clause) — named subqueries for readability and reuse
+- Cross joins and generating number series
+
+## Chapter 10 — Joins Revisited
+
+Concepts covered:
+
+- `LEFT` / `RIGHT OUTER JOIN` — including unmatched rows
+- `FULL OUTER JOIN`
+- Self-joins
+- Cross joins
+- Natural joins
 
 ## Project
 
