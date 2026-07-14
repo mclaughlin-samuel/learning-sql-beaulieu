@@ -21,7 +21,7 @@ SQL fundamentals study repo. Covers the language systematically — set theory, 
 | 8 | Grouping and Aggregates | Complete |
 | 9 | Subqueries | Complete |
 | 10 | Joins Revisited | Complete |
-| 11 | Conditional Logic | In progress |
+| 11 | Conditional Logic | Complete |
 
 ## Chapter 2 — Creating and Populating a Database
 
@@ -126,6 +126,15 @@ Concepts covered:
 - Self-joins
 - Cross joins
 - Natural joins
+
+## Chapter 11 — Conditional Logic
+
+Concepts covered:
+
+- `CASE` expressions — simple and searched forms
+- `CASE` in `SELECT`, `WHERE`, `ORDER BY`, and aggregations
+- `CASE` with subqueries
+- `COALESCE` and `NULLIF` as shorthand conditionals
 
 ## Project
 
